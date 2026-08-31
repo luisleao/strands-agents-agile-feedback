@@ -1,0 +1,53 @@
+{
+  "descricao": "Catálogo de pontos de dor (erros) já reconhecidos pelo time de produto. Cada item contém palavras-chave usadas para casar com o feedback bruto dos usuários e uma descrição canônica do problema.",
+  "pontos_conhecidos": [
+    {
+      "id": "CHECKOUT_CUPOM_MOBILE",
+      "descricao": "Checkout travando no mobile após adicionar cupom",
+      "categoria": "checkout",
+      "palavras_chave": ["cupom", "checkout", "trava", "travando", "celular", "mobile", "app"]
+    },
+    {
+      "id": "DASHBOARD_LENTA",
+      "descricao": "Tempo de carregamento da dashboard acima do aceitável (> 8s)",
+      "categoria": "performance",
+      "palavras_chave": ["dashboard", "carregar", "carregamento", "lenta", "demora", "eternidade", "segundos"]
+    },
+    {
+      "id": "EMAIL_DUPLICADO",
+      "descricao": "Notificações por email chegando duplicadas",
+      "categoria": "notificacoes",
+      "palavras_chave": ["email", "confirmação", "confirmacao", "duplicado", "duplicada", "3 vezes", "repetido"]
+    },
+    {
+      "id": "EXPORT_PDF_AUSENTE",
+      "descricao": "Não é possível exportar relatório em PDF",
+      "categoria": "relatorios",
+      "palavras_chave": ["exportar", "relatório", "relatorio", "pdf", "opção", "opcao", "download"]
+    },
+    {
+      "id": "BUSCA_SKU",
+      "descricao": "Busca não encontra produtos por SKU",
+      "categoria": "busca",
+      "palavras_chave": ["busca", "buscar", "sku", "produto", "não retorna", "nao retorna", "nome completo"]
+    },
+    {
+      "id": "LOGIN_FALHA",
+      "descricao": "Falha intermitente no login / sessão expirando cedo demais",
+      "categoria": "autenticacao",
+      "palavras_chave": ["login", "entrar", "senha", "sessão", "sessao", "logout", "deslogado", "expira"]
+    },
+    {
+      "id": "PAGAMENTO_RECUSADO",
+      "descricao": "Pagamento recusado indevidamente com cartão válido",
+      "categoria": "pagamento",
+      "palavras_chave": ["pagamento", "cartão", "cartao", "recusado", "negado", "cobrança", "cobranca"]
+    },
+    {
+      "id": "NOTIFICACAO_PUSH_AUSENTE",
+      "descricao": "Notificações push não chegam ao dispositivo",
+      "categoria": "notificacoes",
+      "palavras_chave": ["push", "notificação", "notificacao", "não chega", "nao chega", "alerta"]
+    }
+  ]
+}
